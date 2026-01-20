@@ -1,5 +1,3 @@
-![]('2026.01.20T1400 academy.hackthebox.com-dashboard.png')
-
 # 1. Information Security Foundations
 
 ## 1.1. Intro to Academy
@@ -9,7 +7,7 @@
 ## 1.5. Windows Fundamentals
 ## 1.6. Introduction to Windows Command Line
 
-## [1.7. Introduction to Bash Scripting](academy.hackthebox.com/module/21/)
+## [1.7. Introduction to Bash Scripting](module/21/)
 
 ### Module Sections
 
