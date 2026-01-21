@@ -5,7 +5,41 @@
 ## 1.3. Setting Up
 ## 1.4. Linux Fundamentals
 ## 1.5. Windows Fundamentals
-## 1.6. Introduction to Windows Command Line
+## [1.6. Introduction to Windows Command Line](module/167/skills-assessment.md)
+
+### Module Sections
+
+- Introduction
+
+#### CMD
+
+- Command Prompt Basics
+- Getting Help
+- System Navigation
+- Working with Directories and Files - CMD
+- Gathering System Information
+- Finding Files and Directories
+- Environment Variables
+- Managing Services
+- Working With Scheduled Tasks
+
+#### PowerShell
+
+- CMD Vs. PowerShell
+- All About Cmdlets and Modules
+- User and Group Management
+- Working with Files and Directories - PowerShell
+- Finding & Filtering Content
+- Working with Services
+- Working with the Registry
+- Working with the Windows Event Log
+- Networking Management from The CLI
+- Interacting with The Web
+- PowerShell Scripting and Automation
+
+#### Finish Strong
+- [Skills Assessment](module/167/skills-assessment.md)
+- Beyond This Module
 
 ## [1.7. Introduction to Bash Scripting](module/21/)
 
