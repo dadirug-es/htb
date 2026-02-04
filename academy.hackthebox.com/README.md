@@ -67,3 +67,47 @@
 # 3. SOC Analyst Prerequisites
 
 # 4. Intro to Binary Exploitation
+
+## [4.1. Introduction to Assembly Language](module/85/)
+
+### Module Sections
+
+#### Architecture
+- Assembly Language
+- Computer Architecture
+- CPU Architecture
+- Instruction Set Architectures
+- Registers, Addresses, and Data Types
+
+#### Assembling & Debugging
+- Assembly File Structure
+- Assembling & Disassembling
+- GNU Debugger (GDB)
+- Debugging with GDB
+
+#### Module Project
+- Module Project
+
+#### Basic Instructions
+- Data Movement
+- Arithmetic Instructions
+
+#### Control Instructions
+- Loops
+- Unconditional Branching
+- Conditional Branching
+
+#### Functions
+- Using the Stack
+- Syscalls
+- Procedures
+- Functions
+- Libc Functions
+
+#### Shellcoding
+- Shellcodes
+- Shellcoding Techniques
+- Shellcoding Tools
+
+#### Skills Assessment
+- [Skills Assessment](module/85/skills-assessment.md)
