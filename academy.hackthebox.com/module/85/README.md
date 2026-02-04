@@ -1,3 +1,6 @@
+## Assembling & Debugging
+### Assembling and Disassembling
+
 ```sh
 user@IT-JARTIGA-LT:/mnt/c/Users/jartiga.IT-JARTIGA-LT/Downloads$ objdump -sj .data -d disasm
 
@@ -30,4 +33,48 @@ Disassembly of section .data:
   402027:       37                      (bad)
   402028:       35                      .byte 0x35
   402029:       7d                      .byte 0x7d
+```
+
+## Shellcoding
+### Shellcoding Tools
+```sh
+┌─[eu-academy-6]─[10.10.14.231]─[htb-ac-1564439@htb-zbewjpshcx]─[~]
+└──╼ [★]$ clear && (set -x; nasm -f elf64 hellow.s && ld -o hellow hellow.o && cat hellow.s && ./hellow)
++ nasm -f elf64 hellow.s
++ ld -o hellow hellow.o
++ cat hellow.s
+  global _start
+
+  section .text
+_start:
+  xor rax, rax
+  push rax
+
+  mov rsi, "flag.txt"
+  push rsi
+  mov rsi, rsp
+
+  push rax
+
+  mov rbx, "/bin/cat"
+  push rbx
+  mov rbx, rsp
+
+  push rax
+  push rsi
+  push rbx
+  mov rsi, rsp
+
+  push rax
+
+  mov rdi, "/bin/cat"
+  push rdi
+  mov rdi, rsp
+
+  mov rdx, rax
+
+  mov rax, 59
+  syscall
++ ./hellow
+htb{flag}
 ```
