@@ -1,11 +1,105 @@
-# 1. Information Security Foundations
+# 1. [Information Security Foundations](https://academy.hackthebox.com/achievement/1564439/15)
 
 ## 1.1. Intro to Academy
-## 1.2. Learning Process
-## 1.3. Setting Up
-## 1.4. Linux Fundamentals
-## 1.5. Windows Fundamentals
-## [1.6. Introduction to Windows Command Line](module/167/skills-assessment.md)
+
+<img width="1088" height="626" alt="structure2" src="https://github.com/user-attachments/assets/ce55247e-69f6-4679-9ae1-cb7e49a8c480" />
+
+<img width="1440" height="1026" alt="small_steps" src="https://github.com/user-attachments/assets/acda28e2-6028-43bb-80c0-5f161c02cee8" />
+
+> "Great things are not done by impulse, but by a series of small things brought together." Vincent Van Gogh
+
+### How are Modules Completed?
+
+To complete a module, you need to solve all of its exercises and mark all sections as "completed". 
+Once that's done, you will usually face the module's **Skills Assessment**, which represents a real-world scenario of the topic the module covered, and tests your understanding of most/all of the skills shown within it.
+
+### What is a Section?
+
+A section is the smallest building block in the HTB Academy structure. Each section covers a specific area in the larger module topic, and is designed to be completed in one sitting.
+
+For example, in this Intro to Academy module, this Sections section discusses sections! section-ception
+
+### What Types of Sections are there?
+
+There are two types of sections: Theory Sections and Interactive Sections.
+
+Theory sections do not contain any practical elements. Instead, they build the foundational knowledge that is necessary to understand any upcoming practical/interactive lessons, and establish the basics for the entire module.
+
+On the other hand, interactive sections, which are denoted with a small green box, form the majority of sections within HTB Academy. This is where you will learn through practical examples and demos.
+
+<img width="549" height="126" alt="table_of_content" src="https://github.com/user-attachments/assets/81487fc4-4a44-4ef3-b391-effee56d6ee4" />
+
+Start your workstation, then use the integrated terminal to find the Linux OS flavor by running the following command: `cat /etc/issue` 
+```sh
+parrot
+```
+
+### What is an Exercise
+
+In addition to the examples and demos demonstrated within interactive sections, most also end with exercises to test that knowledge.
+
+An exercise will usually have an accompanying Docker target or VM target(s). A target can be started by clicking on Click here to spawn the target system!, which will be populated with its access details, in the format http://<ip>:<port>. It may also provide authentication details, in the form of a username and password.
+
+Start the above target, copy the shown IP:PORT by clicking on them, and then paste them in your browser. What's the proof shown in the page?
+```sh
+t4rg3ts
+```
+
+### What is a Path
+
+Paths are a collection of modules that share a broader topic. Certain paths lead to an HTB Certification after completing their corresponding exam. A single module may show up in multiple paths if its topic matches the path's topic.
+Types of Paths
+
+There are two types of paths in HTB Academy: Skill Paths and Job-Role Paths. You can enroll in any path by clicking on the Enroll button, which will make it easier to track your progress in the path and see the upcoming modules in it through the Dashboard page.
+
+Note: Enrolling in a path does not unlock all of the modules within it. Hence, enrolling in a path does not cost any cubes.
+
+A Skill Path groups modules with a specific popular skill that students may want to learn. 
+
+Tip: You can estimate how long a path will take to complete by checking the duration mentioned underneath the path's title. 
+This represents the sum of the estimated time for completion of each module in the path "in 8-hour work days".
+
+### What is a Certification
+
+An HTB Certification is the key achievement students should target within HTB Academy.
+
+By the time you obtain an HTB certification, you will have completed hundreds of sections and exercises, tens of modules and skills assessments, and have passed a real-world multi-day practical exam. 
+So, you will be market-ready for the specified job role.
+
+![certs_carousel](https://github.com/user-attachments/assets/bdbd9d3a-10da-4f8c-99f0-8b69d4b2187a)
+
+Note: Completing a path also unlocks a new badge, and so does obtaining a certificate.
+
+![cdsa_path](https://github.com/user-attachments/assets/126cb28f-e1ca-4c4f-a169-39ec60cd6d43)
+
+## 1.2. [Learning Process](https://academy.hackthebox.com/achievement/1564439/9)
+
+<img width="2576" height="2076" alt="NEW_Vision" src="https://github.com/user-attachments/assets/b0647ff7-ee7b-4e99-8013-9debd96b713a" />
+
+Since we are dealing with frustration here, we can see from the diagram that, in this case, we lack some resources that frustrate us. In information security and pentesting, these kinds of resources will often be information that we have to work with. Perhaps we have already read it several times that "Enumeration is key". If not, it is not bad. We will fall over it.
+
+Since we are dealing with the offensive aspects of information security, it is essential that we can get the information by ourselves. This is a skill that must be continuously trained. We will have to deal with different services, sources, and technologies to find out how to get the information we need. The feeling of frustration with a lack of resources depends on our skill. If we do not have the necessary skills, we will feel anxiety, which brings us back to the topic of comfort and comfort zone. We should also understand the connections between the individual topics better to get back to the frustration tolerance level.
+
+To express our frustration tolerance adequately, we need to consciously but in a controlled way, place ourselves in situations where a particular frustration can be assumed. It is important to note that this must be done in a controlled and conscious way. It must, therefore, be our conscious decision to deal with the upcoming situation.
+
+To make it a little clearer, pay attention to our feelings for the following example:
+
+> Imagine that you have to catch a train. To catch it in time, we are forced to run about 2 miles quickly. We take all excuses and changes out of the situation for this example ("Think Outside the Box") and determine that you have no other choice in this example. We will be sweaty, maybe we will even get a bit dirty and out of breath, and maybe we will even miss our train because it came too early for once.
+Furthermore, now let us change the situation a little bit and imagine that you consciously decide to leave the house too late and run fast to catch the train.
+
+Even if we do not catch that train, our frustration level will be much lower than in the first example. We will no longer pay attention to the external factors we blame for not getting the train, but we will find ourselves analyzing our reactions.
+
+Do not forget that this feeling of frustration is temporary. This means that when we feel frustrated, it will pass. Most people get scared and panicky at such a feeling, which leads to the fact that such people sometimes even react aggressively. They are not aware that it is a temporary feeling. Therefore, we do not need to be afraid to venture into such situations.
+
+## 1.3. [Setting Up](https://academy.hackthebox.com/achievement/1564439/87)
+
+## 1.4. [Linux Fundamentals](https://academy.hackthebox.com/achievement/1564439/18)
+
+## 1.5. [Windows Fundamentals](https://academy.hackthebox.com/achievement/1564439/49)
+
+- [Skills Assessment](module/49/skills-assessment.md)
+
+## 1.6. [Introduction to Windows Command Line](https://academy.hackthebox.com/achievement/1564439/167)
 
 ### Module Sections
 
@@ -41,7 +135,9 @@
 - [Skills Assessment](module/167/skills-assessment.md)
 - Beyond This Module
 
-## [1.7. Introduction to Bash Scripting](module/21/)
+## 1.7. [Introduction to Bash Scripting](https://academy.hackthebox.com/achievement/1564439/21)
+
+- [Scripts](module/21/)
 
 ### Module Sections
 
@@ -68,9 +164,9 @@
 
 # 4. Intro to Binary Exploitation
 
-## [4.1. Introduction to Assembly Language](module/85/)
+## 4.1. [Introduction to Assembly Language](https://academy.hackthebox.com/achievement/1564439/85)
 
-### Module Sections
+### [Module Sections](module/85/)
 
 #### Architecture
 - Assembly Language
