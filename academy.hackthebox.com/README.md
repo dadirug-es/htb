@@ -177,13 +177,13 @@ HTB{crud_4p!_m4n!pul4t0r}
 
 ## 2.3. [MacOS Fundamentals](https://academy.hackthebox.com/achievement/1564439/157)
 
-## 2.4. [Android Fundamentals](https://academy.hackthebox.com/achievement/1564439/195]
+## 2.4. [Android Fundamentals](https://academy.hackthebox.com/achievement/1564439/195)
 
 # 3. SOC Analyst Prerequisites
 
-## 3.1. [Penetration Testing Process](https://academy.hackthebox.com/achievement/1564439/90]
+## 3.1. [Penetration Testing Process](https://academy.hackthebox.com/achievement/1564439/90)
 
-## 3.2. [Network Enumeration with Nmap](https://academy.hackthebox.com/achievement/1564439/19]
+## 3.2. [Network Enumeration with Nmap](https://academy.hackthebox.com/achievement/1564439/19)
 
 ## 3.3. [Introduction to Assembly Language](https://academy.hackthebox.com/achievement/1564439/85)
 
