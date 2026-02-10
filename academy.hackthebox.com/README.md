@@ -152,11 +152,26 @@ Do not forget that this feeling of frustration is temporary. This means that whe
 - Functions
 - Debugging
 
-## 1.8. Introduction to Networking
-## 1.9. Intro to Network Traffic Analysis
-## 1.10. Introduction to Active Directory
-## 1.11. Introduction to Web Applications
-## 1.12. Web Requests
+## 1.8. [Introduction to Networking](https://academy.hackthebox.com/achievement/1564439/34)
+## 1.9. [Intro to Network Traffic Analysis](https://academy.hackthebox.com/achievement/1564439/81)
+## 1.10. [Introduction to Active Directory](https://academy.hackthebox.com/achievement/1564439/74)
+## 1.11. [Introduction to Web Applications](https://academy.hackthebox.com/achievement/1564439/75)
+## 1.12. [Web Requests](https://academy.hackthebox.com/achievement/1564439/35)
+
+The exercise above seems to be broken, as it returns incorrect results. Use the browser devtools to see what is the request it is sending when we search, and use cURL to search for 'flag' and obtain the flag.
+```sh
+HTB{curl_g3773r}
+```
+
+Obtain a session cookie through a valid login, and then use the cookie with cURL to search for the flag through a JSON POST request to '/search.php'
+```sh
+HTB{p0$t_r3p34t3r}
+```
+
+First, try to update any city's name to be 'flag'. Then, delete any city. Once done, search for a city named 'flag' to get the flag.
+```sh
+HTB{crud_4p!_m4n!pul4t0r}
+```
 
 # 2. Operating System Fundamentals
 
