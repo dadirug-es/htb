@@ -93,13 +93,9 @@ Do not forget that this feeling of frustration is temporary. This means that whe
 
 ## 1.3. [Setting Up](https://academy.hackthebox.com/achievement/1564439/87)
 
-## 1.4. [Linux Fundamentals](https://academy.hackthebox.com/achievement/1564439/18)
-
-## 1.5. [Windows Fundamentals](https://academy.hackthebox.com/achievement/1564439/49)
-
 - [Skills Assessment](module/49/skills-assessment.md)
 
-## 1.6. [Introduction to Windows Command Line](https://academy.hackthebox.com/achievement/1564439/167)
+## 1.4. [Introduction to Windows Command Line](https://academy.hackthebox.com/achievement/1564439/167)
 
 ### Module Sections
 
@@ -135,7 +131,7 @@ Do not forget that this feeling of frustration is temporary. This means that whe
 - [Skills Assessment](module/167/skills-assessment.md)
 - Beyond This Module
 
-## 1.7. [Introduction to Bash Scripting](https://academy.hackthebox.com/achievement/1564439/21)
+## 1.5. [Introduction to Bash Scripting](https://academy.hackthebox.com/achievement/1564439/21)
 
 - [Scripts](module/21/)
 
@@ -152,11 +148,11 @@ Do not forget that this feeling of frustration is temporary. This means that whe
 - Functions
 - Debugging
 
-## 1.8. [Introduction to Networking](https://academy.hackthebox.com/achievement/1564439/34)
-## 1.9. [Intro to Network Traffic Analysis](https://academy.hackthebox.com/achievement/1564439/81)
-## 1.10. [Introduction to Active Directory](https://academy.hackthebox.com/achievement/1564439/74)
-## 1.11. [Introduction to Web Applications](https://academy.hackthebox.com/achievement/1564439/75)
-## 1.12. [Web Requests](https://academy.hackthebox.com/achievement/1564439/35)
+## 1.6. [Introduction to Networking](https://academy.hackthebox.com/achievement/1564439/34)
+## 1.7. [Intro to Network Traffic Analysis](https://academy.hackthebox.com/achievement/1564439/81)
+## 1.8. [Introduction to Active Directory](https://academy.hackthebox.com/achievement/1564439/74)
+## 1.9. [Introduction to Web Applications](https://academy.hackthebox.com/achievement/1564439/75)
+## 1.10. [Web Requests](https://academy.hackthebox.com/achievement/1564439/35)
 
 The exercise above seems to be broken, as it returns incorrect results. Use the browser devtools to see what is the request it is sending when we search, and use cURL to search for 'flag' and obtain the flag.
 ```sh
@@ -174,6 +170,12 @@ HTB{crud_4p!_m4n!pul4t0r}
 ```
 
 # 2. Operating System Fundamentals
+
+## 2.1. [Linux Fundamentals](https://academy.hackthebox.com/achievement/1564439/18)
+
+## 2.2. [Windows Fundamentals](https://academy.hackthebox.com/achievement/1564439/49)
+
+## 2.3. [MacOS Fundamentals](https://academy.hackthebox.com/achievement/1564439/157)
 
 # 3. SOC Analyst Prerequisites
 
