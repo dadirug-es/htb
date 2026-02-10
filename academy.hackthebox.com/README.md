@@ -187,7 +187,7 @@ HTB{crud_4p!_m4n!pul4t0r}
 
 ## 3.3. [Introduction to Assembly Language](https://academy.hackthebox.com/achievement/1564439/85)
 
-### [Module Sections](module/85/)
+### Module Sections
 
 #### Architecture
 - Assembly Language
@@ -199,32 +199,67 @@ HTB{crud_4p!_m4n!pul4t0r}
 #### Assembling & Debugging
 - Assembly File Structure
 - Assembling & Disassembling
+Download the attached file and disassemble it to find the flag
+```sh
+HBT{d154553m811n9_81n42135_2_f1nd_53c2375}
+```
 - GNU Debugger (GDB)
 - Debugging with GDB
+Download the attached file, and find the hex value in 'rax' when we reach the instruction at <_start+16>?
+```sh
+0x21796d6564637708
+```
 
 #### Module Project
 - Module Project
 
 #### Basic Instructions
 - Data Movement
+Add an instruction at the end of the attached code to move the value in "rsp" to "rax". What is the hex value of "rax" at the end of program execution?
+```sh
+0x400
+```
 - Arithmetic Instructions
+Add an instruction to the end of the attached code to "xor" "rbx" with "15". What is the hex value of 'rbx' at the end?
+```sh
+0x0
+```
 
 #### Control Instructions
 - Loops
+Edit the attached assembly code to loop the "loop" label 5 times. What is the hex value of "rax" by the end?
+```sh
+```
 - Unconditional Branching
+Try to jump to "func" before "loop loop". What is the hex value of "rbx" at the end?
+```sh
+```
 - Conditional Branching
+The attached assembly code loops forever. Try to modify (mov rax, 5) to make it not loop. What hex value prevents the loop?
+```sh
+```
 
 #### Functions
 - Using the Stack
+```sh
+```
 - Syscalls
 - Procedures
+```sh
+```
 - Functions
+```sh
+```
 - Libc Functions
 
 #### Shellcoding
 - Shellcodes
+```sh
+```
 - Shellcoding Techniques
 - Shellcoding Tools
+```sh
+```
 
 #### Skills Assessment
 - [Skills Assessment](module/85/skills-assessment.md)
