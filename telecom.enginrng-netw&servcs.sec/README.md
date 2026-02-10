@@ -27,7 +27,7 @@ Repositorio para la asignatura "[Seguridad en Redes y Servicios](https://www.una
 
 10. Ingeniería Social
  - [Truco de ingeniería social con un bebé llorando y una llamada](https://youtu.be/lc7scxvKQOo)
- - [Ingeniería social en [un banco / un hotel]](https://holename.wordpress.com/tag/ingenieria-social/)
+ - [Ingeniería social en un banco / un hotel](https://holename.wordpress.com/tag/ingenieria-social/)
  - [El arte de la adivinación](https://youtu.be/F7pYHN9iC9I)
  - [INCIBE: Kit de concienciación para empresas](https://www.incibe.es/protege-tu-empresa/kit-concienciacion)
 
@@ -36,7 +36,7 @@ Repositorio para la asignatura "[Seguridad en Redes y Servicios](https://www.una
 ### proyecto final
 
 **Captive**: Ejemplo de *Rogue Access Point* y "MitM" en la red Wi-Fi de la UPNA  
-[[presentación](https://jartigag.xyz/captive/)] y [[repositorio](https://github.com/jartigag/captive)]
+[[presentación](https://jartigag.github.io/captive/)] y [[repositorio](https://github.com/jartigag/captive)]
 
 ### htb
 <img src="https://www.hackthebox.eu/badge/image/84928" alt="Hack The Box">
