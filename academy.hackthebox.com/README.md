@@ -179,7 +179,7 @@ HTB{crud_4p!_m4n!pul4t0r}
 
 ## 2.4. [Android Fundamentals](https://academy.hackthebox.com/achievement/1564439/195)
 
-# 3. SOC Analyst Prerequisites
+# 3. SOC Analyst (Skill Path)
 
 ## 3.1. [Penetration Testing Process](https://academy.hackthebox.com/achievement/1564439/90)
 
@@ -275,3 +275,25 @@ The attached assembly code loops forever. Try to modify (mov rax, 5) to make it 
 
 #### Skills Assessment
 - [Skills Assessment](module/85/skills-assessment.md)
+
+# 4. SOC Analyst (Job Path)
+
+## 4.1. [Incident Handling Process](https://academy.hackthebox.com/achievement/1564439/148)
+## 4.2. [Security Monitoring & SIEM Fundamentals](https://academy.hackthebox.com/achievement/1564439/211)
+## 4.3. [Windows Event Logs & Finding Evil](https://academy.hackthebox.com/achievement/1564439/216)
+## 4.4. Introduction to Threat Hunting & Hunting with Elastic
+## 4.5. Understanding Log Sources & Investigating with Splunk
+## 4.6. [Windows Attacks & Defense](https://academy.hackthebox.com/achievement/1564439/176)
+### Skills Assessment
+Replicate the attack described in this section and view the related 4886 and 4887 logs. Enter the name shown in the Requester field as your answer. (Format: EAGLE\....) 
+```cmd
+EAGLE\DC2$
+```
+## 4.7. [Intermediate Network Traffic Analysis](https://academy.hackthebox.com/achievement/1564439/229)
+## 4.8. Working with IDS/IPS
+## 4.9. Introduction to Malware Analysis
+## 4.10. [JavaScript Deobfuscation](https://academy.hackthebox.com/achievement/1564439/41)
+## 4.11. [YARA & Sigma for SOC Analyst](https://academy.hackthebox.com/achievement/1564439/234)
+## 4.12. Introduction to Digital Forensics
+## 4.13. Detecting Windows Attacks with Splunk
+## 4.14. [Security Incident Reporting](https://academy.hackthebox.com/achievement/1564439/238)
