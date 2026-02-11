@@ -13,13 +13,13 @@
 To complete a module, you need to solve all of its exercises and mark all sections as "completed". 
 Once that's done, you will usually face the module's **Skills Assessment**, which represents a real-world scenario of the topic the module covered, and tests your understanding of most/all of the skills shown within it.
 
-### What is a Section?
+### What is a Section
 
 A section is the smallest building block in the HTB Academy structure. Each section covers a specific area in the larger module topic, and is designed to be completed in one sitting.
 
 For example, in this Intro to Academy module, this Sections section discusses sections! section-ception
 
-### What Types of Sections are there?
+### What Types of Sections are there
 
 There are two types of sections: Theory Sections and Interactive Sections.
 
@@ -313,11 +313,37 @@ DCs:
 2. Allows remote CodeExec by design (via GPOs pulled from SYSVOL)
 3. Legacy, not secure by default. E.g.: DNS-like protocols (NetBIOS, LLMNR) brodcast user credentials on the wire
 
+### Windows Attacks
+
+#### Kerberoasting
+#### AS-REProasting
+#### GPP Passwords
+#### Misconfigured GPO permissions
+#### Credentials in Network Shares
+#### Credentials in User Attributes
+#### Kerberos Constrained Delegation
+#### PrintSpooler & NTLM Relaying
+#### Coercing attacks & Kerberos Unconstrained Delegation
+#### Object ACLs
+
+#### PKI Misconfigurations
+
+[(2022) Certified Pre-Owned: "Abusing Active Directory Certificate Services"](https://specterops.io/wp-content/uploads/sites/3/2022/06/Certified_Pre-Owned.pdf)
+
+PKI Architecture Flaws:
+- Lack of Offline Root CA & Tiered Architecture
+- Unprotected Subordinate CAs
+- Breaking Forest Trust via AD CS
+
+##### ESC1: Misconfigured Certificate Templates
+##### ESC8: NTLM Relay to AD CS HTTP Endpoints
+
 ### Skills Assessment
 Replicate the attack described in this section and view the related 4886 and 4887 logs. Enter the name shown in the Requester field as your answer. (Format: EAGLE\....) 
 ```cmd
 EAGLE\DC2$
 ```
+
 ## 4.7. [Intermediate Network Traffic Analysis](https://academy.hackthebox.com/achievement/1564439/229)
 ## 4.8. Working with IDS/IPS
 ## 4.9. Introduction to Malware Analysis
