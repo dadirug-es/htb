@@ -283,7 +283,36 @@ The attached assembly code loops forever. Try to modify (mov rax, 5) to make it 
 ## 4.3. [Windows Event Logs & Finding Evil](https://academy.hackthebox.com/achievement/1564439/216)
 ## 4.4. Introduction to Threat Hunting & Hunting with Elastic
 ## 4.5. Understanding Log Sources & Investigating with Splunk
+
 ## 4.6. [Windows Attacks & Defense](https://academy.hackthebox.com/achievement/1564439/176)
+
+### AD
+
+DCs:
+- Store **NTDS.DIT** in `%SystemRoot%\NTDS`
+- Run **LDAP** and listen for requests from the network
+- Run **KDC** (Kerberos Key Distribution Center)
+
+### Authentication
+- User/Password: LM, **NTLM**, NetNTLM{v1,v2}
+- **Kerberos** tickets
+- Authentication over **LDAP** (user/pwd, user/computer certificates)
+- **AD CS** (Certificate Services)
+
+### Network Ports
+- 53: DNS
+- 88: Kerberos
+- 135: WMI/RPC
+- 137-139 & 445: SMB
+- 389 & 636: LDAP
+- 3389: RDP
+- 5985 & 5986: WinRM (PowerShell Remoting)
+
+### Weaknesses
+1. Complexity
+2. Allows remote CodeExec by design (via GPOs pulled from SYSVOL)
+3. Legacy, not secure by default. E.g.: DNS-like protocols (NetBIOS, LLMNR) brodcast user credentials on the wire
+
 ### Skills Assessment
 Replicate the attack described in this section and view the related 4886 and 4887 logs. Enter the name shown in the Requester field as your answer. (Format: EAGLE\....) 
 ```cmd
